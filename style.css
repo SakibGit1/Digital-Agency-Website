@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Nav-container{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    background-color: rgba(128, 128, 128, 0.8);
+    align-items: center;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.logo-digital{
+    color: aqua;
+}
+.items{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    /* font-weight: bold; */
+    /* align-items: center; */
+
+    /* margin-right: 10px; */
+    /* padding: 10px; */
+    font-size: 19px;
+    /* text-decoration: none; */
+    cursor: pointer;    
+}
